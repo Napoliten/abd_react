@@ -1,0 +1,142 @@
+/* margin padding container column row */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.gradient{
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    -webkit-box-shadow: 4px 4px 10px 4px rgba(186,158,186,0.27);
+    -moz-box-shadow: 4px 4px 10px 4px rgba(186,158,186,0.27);
+    box-shadow: 4px 4px 10px 4px rgba(186,158,186,0.27);
+}
+
+.container{
+    width: 1000px;
+    /* margin-left: auto;
+    /* margin-right: auto; */ /*asagidaki-kod-ile-ayni-yazim-kisa-yolu */
+    margin: 50px auto 0;
+}
+
+.left-bar{
+    width: 200px;
+    float: left;
+}
+.content{
+    width: 800px;
+    float: left;
+}
+
+.card{
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: slategrey;
+    border-radius: 15px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    /* margin-bottom: 10px; */
+    margin-right: 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+/*
+
+body{
+    background-color: chocolate;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+h2 {
+    color: red;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+p{
+    color: blue;
+    font-size: 24px;
+}
+
+*/
+/* class -> .text-red{}  */
+/* id -> #id-bilgisi{} */
+
+/*css selectors*/
+/*css selectors   first-child,last-child,nth-child(odd),nth-child(even) */
+
+
+
+/*h1, h2, h3, h4, h5, h6{
+    color: #2c2c2c;
+}
+
+h1{
+    font-size: 24px;
+}
+
+
+p{
+    font-size: 20px;
+}
+
+#first-article{
+    font-size: 40px;
+}
+
+.text-red{
+    color:red;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-30{
+    font-size: 30px;
+}
+*/
