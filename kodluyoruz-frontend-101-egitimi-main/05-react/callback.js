@@ -16,20 +16,20 @@ import axios from "axios";
 //     console.log("Hello");
 // });
 
-// fetch("https://jsonplaceholder.typicode.com/users")
-// .then((data ) => data.json())
-// .then((users) => {
-//         console.log("Users Yüklendi!", users);
-//     fetch("https://jsonplaceholder.typicode.com/posts/1")
-//     .then(data => data.json())
-//     .then((post) => {
-//         console.log("Post 1 Yüklendi", post);
+fetch("https://jsonplaceholder.typicode.com/users")
+.then((data ) => data.json())
+.then((users) => {
+        console.log("Users Yüklendi!", users);
+    fetch("https://jsonplaceholder.typicode.com/posts/1")
+    .then(data => data.json())
+    .then((post) => {
+        console.log("Post 1 Yüklendi", post);
 
-//     fetch("https://jsonplaceholder.typicode.com/posts/2")
-//     .then(data => data.json())
-//     .then(post => console.log("Post 2 Yüklendi", post))
-//     });
-// });
+    fetch("https://jsonplaceholder.typicode.com/posts/2")
+    .then(data => data.json())
+    .then(post => console.log("Post 2 Yüklendi", post))
+    });
+});
 
 //***** Yukarıdaki ile aynı işlev sadece daha kısa ve düzgün hali  *****//
 
@@ -71,12 +71,12 @@ import axios from "axios";
 
 
 //***** fetch -> axios kullandığımızda ".json" ve "2.await" gerek kalmıyor aşağıdaki gbi  *****//
-(async()=>{
-    const {data: users} = await axios("https://jsonplaceholder.typicode.com/users");
-    const {data: post1} = await axios("https://jsonplaceholder.typicode.com/posts/1");
-    const {data: post2} = await axios("https://jsonplaceholder.typicode.com/posts/2");
+// (async()=>{
+//     const {data: users} = await axios("https://jsonplaceholder.typicode.com/users");
+//     const {data: post1} = await axios("https://jsonplaceholder.typicode.com/posts/1");
+//     const {data: post2} = await axios("https://jsonplaceholder.typicode.com/posts/2");
 
-    console.log("Users",users);
-    console.log("Post1",post1);
-    console.log("Post2",post2);
-})();
+//     console.log("Users",users);
+//     console.log("Post1",post1);
+//     console.log("Post2",post2);
+// })();
